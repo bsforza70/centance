@@ -35,16 +35,17 @@
 
 namespace WordsAPI\models;
 
-class WordResponse {
+class WordResponse
+{
 
-  static $swaggerTypes = array(
-      'results' => 'array[Result]'
+	static $swaggerTypes = array(
+		'results' => 'array[Result]'
 
-    );
+	);
 
-  /**
-  * Results
-  */
-  public $results; // array[Result]
-  }
+	/**
+	 * Results
+	 */
+	public $results; // array[Result]
+}
 

@@ -35,21 +35,22 @@
 
 namespace WordsAPI\models;
 
-class Definition {
+class Definition
+{
 
-  static $swaggerTypes = array(
-      'definition' => 'string',
-      'partOfSpeech' => 'string'
+	static $swaggerTypes = array(
+		'definition' => 'string',
+		'partOfSpeech' => 'string'
 
-    );
+	);
 
-  /**
-  * Definition
-  */
-  public $definition; // string
-  /**
-  * Partofspeech
-  */
-  public $partOfSpeech; // string
-  }
+	/**
+	 * Definition
+	 */
+	public $definition; // string
+	/**
+	 * Partofspeech
+	 */
+	public $partOfSpeech; // string
+}
 

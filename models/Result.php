@@ -35,36 +35,37 @@
 
 namespace WordsAPI\models;
 
-class Result {
+class Result
+{
 
-  static $swaggerTypes = array(
-      'definition' => 'string',
-      'derivation' => 'array[string]',
-      'partOfSpeech' => 'string',
-      'synonyms' => 'array[string]',
-      'typeOf' => 'array[string]'
+	static $swaggerTypes = array(
+		'definition' => 'string',
+		'derivation' => 'array[string]',
+		'partOfSpeech' => 'string',
+		'synonyms' => 'array[string]',
+		'typeOf' => 'array[string]'
 
-    );
+	);
 
-  /**
-  * Definition
-  */
-  public $definition; // string
-  /**
-  * Derivation
-  */
-  public $derivation; // array[string]
-  /**
-  * Partofspeech
-  */
-  public $partOfSpeech; // string
-  /**
-  * Synonyms
-  */
-  public $synonyms; // array[string]
-  /**
-  * Typeof
-  */
-  public $typeOf; // array[string]
-  }
+	/**
+	 * Definition
+	 */
+	public $definition; // string
+	/**
+	 * Derivation
+	 */
+	public $derivation; // array[string]
+	/**
+	 * Partofspeech
+	 */
+	public $partOfSpeech; // string
+	/**
+	 * Synonyms
+	 */
+	public $synonyms; // array[string]
+	/**
+	 * Typeof
+	 */
+	public $typeOf; // array[string]
+}
 
